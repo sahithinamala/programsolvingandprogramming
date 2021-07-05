@@ -1,0 +1,12 @@
+Git commands:
+
+ git config --global user.name sahithinamala
+git config --global user.email "namala.sahithi@gmail.com"
+touch .gitignore
+git init
+git add .
+ git commit -m "Initial commit"
+git remote add origin git@github.com:sahithinamala/programsolvingandprogramming.git
+ ssh-keygen -t rsa -b 4096 -C "namala.sahithi@gmail.com"
+ cat /c/Users/namal/.ssh/id_rsa.pub
+ git push origin master
