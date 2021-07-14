@@ -1,3 +1,5 @@
+package ab;
+
 import java.util.*;
 public class Pranav_Harshith{
     public static void main(String[]args){
@@ -5,7 +7,7 @@ public class Pranav_Harshith{
         System.out.println("Enter the array size");
         int n = sc.nextInt();
         int array[] = new int[n];
-        int temp = 0;
+        int temp =(int) 0;
         System.out.println("Enter the elements in the array");
         for(int i = 0; i<array.length ; i++) {
         array[i] = sc.nextInt();
